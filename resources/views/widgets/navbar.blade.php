@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 
     <title>Hello, world!</title>
 </head>
@@ -19,6 +21,74 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('img/deo.jpg');
         /* background-repeat: no-repeat; */
     }
+    .jumbotron2 {
+        height: 80vh;
+        background-color: #2A2E34;
+    }
+    .special {
+        display: grid;
+    }
+    .lingkeran {
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        background-color: whitesmoke;
+        border-radius: 100%;
+    }
+    .lingkeran-gendut {
+        text-align: center;
+        height: 160px;
+        width: 160px;
+        background-color: whitesmoke;
+        border-radius: 100%;
+    }
+    /* for tablets and desktops*/
+    @media screen and (min-width: 600px) {
+        .special {
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 50px 50px;
+        }
+        .logo {
+            grid-area: 1/1/3/2;
+            margin-left: 30px;
+        }
+    }
+    .arrow {
+        position: absolute;
+        top: -10%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+    .arrow span {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-bottom: 5px solid #f7f7f6;
+        border-right: 5px solid #f7f7f6;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+    .arrow span:nth-child(2) {
+        animation-delay: -0.2s;
+    }
+    .arrow span:nth-child(3) {
+        animation-delay: -0.4s;
+    }
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px, -20px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px);
+        }
+    }
+
 
     .jumbotron3 {
         /* height: 100vh; */
@@ -34,7 +104,7 @@
     }
 
     .jumbotron4 {
-        height: 100%;
+        /* height: 100%; */
         background-color: rgba(179, 179, 179, 179);
     }
 
