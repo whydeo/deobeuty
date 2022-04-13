@@ -1,87 +1,120 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-</head>
-<style>
-    .jumbotron {
-        height: 100vh;
-        /* background-image: url('img/deo.jpg'); */
-        background-size: cover;
-        /* filter: brightness(50%); */
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('img/deo.jpg');
-
-    }
-
-    .stuck .sticky-top {
-        background-color: transparent !important;
-        padding-top: 3px !important;
-        padding-bottom: 3px !important;
-    }
-
-    .tombol-putih {
-
-        background-color: transparent;
-        border : 1px solid;
-        background-color: transparent;
-        color: #f7f7f6;
-    }
-
-    .tombol-putih:hover {
-        background-color: #f7f7f6;
-        color: #020104;
-    }
-
-</style>
 <body>
-    <nav style="transition: all 0.7s ease-in-out;" class="navbar navbar-expand-md fixed-top navbar-dark">
-        <a class="navbar-brand" style="font-weight: 600" href="#">DEO'S BEAUTY</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto" style="margin-right:40px;">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">GALERY</a>
-                </li>
-            </ul>
+    @include('widgets.navbar')
 
-        </div>
-    </nav>
-
-
-
-
-    <div class="jumbotron" style=" border-radius : 0px;">
+    <div class="jumbotron" style=" border-radius : 0px; margin-bottom : 0px;">
         <div class="row">
             <div class="col-8 mx-auto">
                 <div class="text-center">
-                    <h1 class="display-4 text-light" style="margin-top:8%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Deo's Beauty</h1>
-                    <div class="lead text-light" style="font-weight: 400">When you design in STUDIO, every stroke gets code generated ready to go live. CMS, IDE and Analytics are integrated for seamless customizations. Cross-team collaboration is built along every step.</div>
+                    <h1 class="display-4 text-light" style="margin-top:4%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Deo's Studio</h1>
+                    <div class="lead text-light" style="font-weight:">When you design in STUDIO, every stroke gets code generated ready to go live. CMS, IDE and Analytics are integrated for seamless customizations. Cross-team collaboration is built along every step.</div>
                 </div>
-                <div class="col-3 mx-auto">
-                    <div class="btn tombol-putih mt-3 ">kam to see  &#128540;</div>
+                <div class="col-sm-3 mx-auto text-center">
+                    <div class="btn tombol-putih mt-3 ">kam to see &#128540;</div>
                 </div>
             </div>
         </div>
     </div>
+    {{-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L1440,32L1440,0L0,0Z"></path></svg> --}}
 
-    <div style="height: 100vh" class="container">
+    <div class="jumbotron3  " style=" border-radius : 0px;margin-top : -20px" >
+        <br>
+
+        <div class="container">
+            <div class="text-center">
+                <h1 class="display-4 text-light" style="margin-top:10%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Layanan yang kami berikan</h1>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row ">
+
+                <div class="col">
+                        <center>
+                             <i class="bi-stars"style="font-size: 2rem;color: rgb(239, 163, 11)"></i>
+                        </center>
+                        <br>
+                        <center>
+                            <h5 class="text-light">Meningkatkan kredibilitas</h5>
+                            <p style="color:rgb(210, 200, 200) ;" style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set top: 0 to get the element fixed to the very top of the browser viewport. I would set a width:100% as the position:fixed will shrink your element.</p>
+
+                        </center>
+                  </div>
+                  <div class="col">
+                    <center>
+                        <i class="bi-alarm" style="font-size: 2rem;color: rgb(239, 163, 11)"></i>
+                   </center>
+                   <br>
+                   <center>
+                       <h5 class="text-light">Efisien</h5>
+                    <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set top: 0 to get the element fixed to the very top of the browser viewport. I would set a width:100% as the position:fixed will shrink your element.</p>
+                   </center>
+
+                  </div>
+                  <div class="col">
+                    <center>
+                        <i class="bi bi-house"  style="font-size: 2rem;color: rgb(239, 163, 11)"></i>
+                   </center>
+                  <br>
+                  <center>
+                    <h5 class="text-light">Pasar yang luas</h5>
+                 <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set top: 0 to get the element fixed to the very top of the browser viewport. I would set a width:100% as the position:fixed will shrink your element.</p>
+                </center>
+                  </div>
+                  <div class="col">
+                    <center>
+                        <i class="bi bi-info-square" style="font-size: 2rem;color: rgb(239, 163, 11)"></i>
+                   </center>
+                    <br>
+                    <center>
+                        <h5 class="text-light">Informasi yang lengkap</h5>
+                     <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set top: 0 to get the element fixed to the very top of the browser viewport. I would set a width:100% as the position:fixed will shrink your element.</p>
+                    </center>
+                  </div>
+                  <div class="col">
+                    <center>
+                        <i class="bi bi-clock" style="font-size: 2rem;color: rgb(239, 163, 11)"></i>
+                   </center>
+                 <br>
+                 <center>
+                    <h5 class="text-light">Buka 24 jam</h5>
+                 <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set top: 0 to get the element fixed to the very top of the browser viewport. I would set a width:100% as the position:fixed will shrink your element.</p>
+                </center>
+                  </div>
+                </div>
+              </div>
+        </div>
+ </div>
+
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,32L1440,96L1440,0L0,0Z"></path></svg>
+  <div class="jumbotron4" style=" border-radius : 0px; margin-top : -280px;">
+    <div class="row">
+        <div class="col-8 mx-auto">
+            <div class="text-center">
+                <h1 class="display-4 text-light" style="margin-top:10%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Deo's Studio</h1>
+            </div>
 
     </div>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+           <div class="container">
+                <div class="card">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus suscipit reprehenderit quos eius delectus, explicabo laborum ipsam voluptatem similique vero repudiandae rerum vel officiis quod omnis doloremque culpa in sed.</p>
+                <img src="img/download.jpg" alt="Avatar">
+
+            </div>
+           </div>
+          </div>
+          <div class="col">
+            <div class="card"></div>
+          </div>
+        </div>
+</div>
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -120,4 +153,5 @@
 
     </script>
 </body>
+
 </html>
