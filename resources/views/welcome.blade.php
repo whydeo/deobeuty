@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    {{-- aos --}}
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -24,6 +26,7 @@
     .jumbotron2 {
         height: 80vh;
         background-color: #2A2E34;
+        z-index: -1;
     }
 
     .special {
@@ -116,8 +119,9 @@
     }
 
     .jumbotron4 {
-        height: 100%;
+        height: 100vh;
         background-color: rgba(179, 179, 179, 179);
+        z-index: 4;
     }
 
     /* .jumbotron3 h1{
@@ -166,6 +170,9 @@
     .material-icons.orange600 {
         color: #FB8C00;
     }
+    .jumbotron5{
+        height: 100vh;
+    }
 
 </style>
 <body>
@@ -194,14 +201,14 @@
         <div class="row">
             <div class="col-8 mx-auto">
                 <div class="text-center">
-                    <h1 class="display-4 text-light" style="margin-top:20%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Deo's
+                    <h1 class="display-4 text-light" data-aos="zoom-in-up" data-aos-duration="1500" style="margin-top:20%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Deo's
                         Studio</h1>
-                    <div class="lead text-light" style="">When you design in STUDIO, every stroke gets
+                    <div class="lead text-light " data-aos="zoom-in-up" data-aos-duration="1500" style="">When you design in STUDIO, every stroke gets
                         code generated ready to go live. CMS, IDE and Analytics are integrated for seamless
                         customizations. Cross-team collaboration is built along every step.</div>
                 </div>
-                <div class="col-3 mx-auto text-center">
-                    <div class="btn tombol-putih mt-3 ">kam to play &#128540;</div>
+                <div class="col-3 mx-auto text-center" >
+                    <div class="btn tombol-putih mt-3 " data-aos="zoom-in-up" data-aos-duration="1500">kam to play &#128540;</div>
                 </div>
             </div>
         </div>
@@ -209,7 +216,7 @@
 
 
 
-    <div class="jumbotron2" style=" border-radius : 0px;">
+    <div class="jumbotron2" style=" border-radius : 0px;" data-aos="fade-down" data-aos-easing="linear"data-aos-duration="1500" >
         <div class="container">
 
 
@@ -366,11 +373,14 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#787878" fill-opacity="1" d="M0,160L1440,64L1440,0L0,0Z"></path>
     </svg>
-    <div class="jumbotron4" style=" border-radius : 0px; margin-top : -280px;">
-        <div class="row">
+    <div class="jumbotron4" style=" border-radius : 0px; margin-top : -225px;">
+        <div class="container">
             <div class="col-8 mx-auto">
                 <div class="text-center">
-                    <h1 class="display-4 text-light" style="margin-top:20%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Our Testimonial's</h1>
+                    <br><br>
+                    <br><br>
+
+                    <h1 class="display-4 text-light" style="margin-top:10;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Our Testimonial's</h1>
                     <br><br>
                     <br><br>
                 </div>
@@ -423,17 +433,36 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b3b3b3" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path></svg>
+      <div class="jumbotron5 bg-dark" style="margin-top: -250px">
+      <div class="container">
+          <br><br><br>
+          <br><br><br>
+        <div class="text-center">
+            <h1 class="display-4 text-light" style="font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">let's have a little talk</h1>
+        </div>
+        <div class="text-center">
+            <h1 class="display-4 text-light" style="font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">0828327-828</h1>
+        </div>
 
-            <div class="container"></div>
+      </div>
+              </div>
+
 
             <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
             </script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
             </script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
             <script>
+
                 $(document).ready(function() {
                     $(window).scroll(function() {
                         if ($(window).scrollTop() > 56) {
