@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{{-- ftoooter --}}
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    {{-- ftoooter --}}
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet"> --}}
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -28,11 +28,19 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200;1,300&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <title>Deo's studio</title>
+    <link rel="icon" href="{{ asset('img/ima.png') }}">
+
+
 </head>
 <style>
+
+    html {
+  scroll-behavior: smooth;
+}
     .jumbotron {
         height: 100vh;
         /* background-image: url('img/deo.jpg'); */
@@ -142,6 +150,7 @@
         background-color: rgba(179, 179, 179, 179);
         z-index: 4;
     }
+
     .jumbotron5 {
 
         background-color: rgb(234, 226, 226);
@@ -194,7 +203,8 @@
     .material-icons.orange600 {
         color: #FB8C00;
     }
-    .jumbotron5{
+
+    .jumbotron5 {
         height: 100vh;
     }
 
@@ -322,118 +332,117 @@
         }
     }
 
-footer {
-  background: #16222A;
-  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
-  background: linear-gradient(59deg, #3A6073, #16222A);
-  color: white;
-  margin-top:100px;
-}
+    footer {
+        background: #16222A;
+        background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+        background: linear-gradient(59deg, #3A6073, #16222A);
+        color: white;
+        margin-top: 100px;
+    }
 
-footer a {
-  color: #fff;
-  font-size: 26px;
-  transition-duration: 0.2s;
-}
+    footer a {
+        color: #fff;
+        font-size: 26px;
+        transition-duration: 0.2s;
+    }
 
-footer a:hover {
-  color: #FA944B;
-  text-decoration: none;
-}
+    footer a:hover {
+        color: #FA944B;
+        text-decoration: none;
+    }
 
-.copy {
-  font-size: 12px;
-  padding: 10px;
-  border-top: 1px solid #FFFFFF;
-}
+    .copy {
+        font-size: 12px;
+        padding: 10px;
+        border-top: 1px solid #FFFFFF;
+    }
 
-.footer-middle {
-  padding-top: 2em;
-  color: white;
-}
-
-
-/SOCİAL İCONS/
-
-/* footer social icons */
-
-ul.social-network {
-  list-style: none;
-  display: inline;
-  margin-left: 0 !important;
-  padding: 0;
-}
-
-ul.social-network li {
-  display: inline;
-  margin: 0 5px;
-}
+    .footer-middle {
+        padding-top: 2em;
+        color: white;
+    }
 
 
-/* footer social icons */
+    /SOCİAL İCONS/
+    /* footer social icons */
 
-.social-network a.icoFacebook:hover {
-  background-color: #3B5998;
-}
+    ul.social-network {
+        list-style: none;
+        display: inline;
+        margin-left: 0 !important;
+        padding: 0;
+    }
 
-.social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
-}
+    ul.social-network li {
+        display: inline;
+        margin: 0 5px;
+    }
 
-.social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
-  color: #fff;
-}
 
-.social-network a.socialIcon:hover,
-.socialHoverClass {
-  color: #44BCDD;
-}
+    /* footer social icons */
 
-.social-circle li a {
-  display: inline-block;
-  position: relative;
-  margin: 0 auto 0 auto;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  font-size: 26px;
-}
+    .social-network a.icoFacebook:hover {
+        background-color: #3B5998;
+    }
 
-.social-circle li i {
-  margin: 0;
-  line-height: 30px;
-  text-align: center;
-}
+    .social-network a.icoLinkedin:hover {
+        background-color: #007bb7;
+    }
 
-.social-circle li a:hover i,
-.triggeredHover {
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -ms--transform: rotate(360deg);
-  transform: rotate(360deg);
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  transition: all 0.2s;
-}
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoLinkedin:hover i {
+        color: #fff;
+    }
 
-.social-circle i {
-  color: #595959;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  transition: all 0.8s;
-}
+    .social-network a.socialIcon:hover,
+    .socialHoverClass {
+        color: #44BCDD;
+    }
 
-.social-network a {
-  background-color: #F9F9F9;
-}
+    .social-circle li a {
+        display: inline-block;
+        position: relative;
+        margin: 0 auto 0 auto;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+    }
+
+    .social-circle li i {
+        margin: 0;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .social-circle li a:hover i,
+    .triggeredHover {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -ms--transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+
+    .social-circle i {
+        color: #595959;
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        -ms-transition: all 0.8s;
+        transition: all 0.8s;
+    }
+
+    .social-network a {
+        background-color: #F9F9F9;
+    }
 
 </style>
 
@@ -447,13 +456,13 @@ ul.social-network li {
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto" style="margin-right:40px;">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
+                    <a class="nav-link" href="/">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#siapa-kami">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">GALERY</a>
+                    <a class="nav-link" href="{{route('index')}}">GALERY</a>
                 </li>
             </ul>
 
@@ -464,22 +473,23 @@ ul.social-network li {
         <div class="row">
             <div class="col-8 mx-auto">
                 <div class="text-center">
-                    <h1 class="display-4 text-light" data-aos="zoom-in-up" data-aos-duration="1500" style="margin-top:20%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Deo's
+                    <h1 class="display-4 text-light" data-aos="zoom-in-up" data-aos-duration="1500"
+                        style="margin-top:20%;font-weight: 600; font-family:Verdana, Geneva, Tahoma, sans-serif">Deo's
                         Studio</h1>
-                    <div class="lead text-light " data-aos="zoom-in-up" data-aos-duration="1500" style="">When you design in STUDIO, every stroke gets
+                    <div class="lead text-light " data-aos="zoom-in-up" data-aos-duration="1500" style="">When you
+                        design in STUDIO, every stroke gets
                         code generated ready to go live. CMS, IDE and Analytics are integrated for seamless
                         customizations. Cross-team collaboration is built along every step.</div>
                 </div>
-                <div class="col-3 mx-auto text-center" >
-                    <div class="btn tombol-putih mt-3 " data-aos="zoom-in-up" data-aos-duration="1500">kam to play &#128540;</div>
+                <div class="col-3 mx-auto text-center">
+                    <div class="btn tombol-putih mt-3 " data-aos="zoom-in-up" data-aos-duration="1500">kam to play
+                        &#128540;</div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-    <div class="jumbotron2" style=" border-radius : 0px;" data-aos="fade-down" data-aos-easing="linear"data-aos-duration="1500" >
+<div><span id="siapa-kami"></span>
+    <div class="jumbotron2" style=" border-radius : 0px;">
         <div class="container">
 
 
@@ -488,10 +498,10 @@ ul.social-network li {
 
 
 
-                    <div class="special" style="margin-top : 40%;">
+                    <div class="special" style="margin-top : 40%;" data-aos="zoom-in-left" data-aos-duration="800" data-aos-delay="500">
                         <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
                             aria-controls="multiCollapseExample1" class="topNav text-white"
-                            style="font-size : 32px; text-decoration : none;">siapa kami ?</a>
+                            style="font-size : 32px; text-decoration : none;">siapa kami?</a>
                         <div class="logo">
                             <div class="lingkeran" style="margin-left: 50px">
                                 <i class="medium material-icons" style="margin-top: 15px;">accessibility</i>
@@ -504,7 +514,7 @@ ul.social-network li {
                     </div>
 
 
-                    <div class="special" style="margin-top : 20%;">
+                    <div class="special" style="margin-top : 20%;"  data-aos="zoom-in-left" data-aos-duration="800" data-aos-delay="500">
                         <a data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false"
                             aria-controls="multiCollapseExample2" class="topNav text-white"
                             style="font-size : 32px; text-decoration : none;">kenapa kami ?</a>
@@ -529,7 +539,7 @@ ul.social-network li {
                         <span></span>
 
                     </div>
-                    <div class="lingkeran-gendut">
+                    <div class="lingkeran-gendut" data-aos="zoom-in">
                         <img src="{{ asset('img/gitar.png') }}" alt="" style="margin-top: -50px">
                     </div>
                 </div>
@@ -537,10 +547,10 @@ ul.social-network li {
 
                 <div class="col-md-5" style="background-color: ">
 
-                    <div class="special" style="margin-top : 40%;">
+                    <div class="special" style="margin-top : 40%;"  data-aos="zoom-in-right" data-aos-duration="800" data-aos-delay="500">
                         <a data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false"
                             aria-controls="multiCollapseExample3" class="topNav text-white"
-                            style="font-size : 32px; text-decoration : none;">keunggulan kami ?</a>
+                            style="font-size : 32px; text-decoration : none;">keungulan kami ?</a>
                         <div class="logo">
                             <div class="lingkeran" style="margin-left: 50px">
                                 <i class="medium material-icons" style="margin-top: 15px;">accessibility</i>
@@ -552,7 +562,7 @@ ul.social-network li {
                     </div>
 
 
-                    <div class="special" style="margin-top : 20%;">
+                    <div class="special" style="margin-top : 20%;"  data-aos="zoom-in-right" data-aos-duration="800" data-aos-delay="500">
                         <a data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false"
                             aria-controls="multiCollapseExample4" class="topNav text-white"
                             style="font-size : 32px; text-decoration : none;">tujuan kami ?</a>
@@ -571,96 +581,101 @@ ul.social-network li {
         </div>
     </div>
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" data-aos="fade-down" data-aos-easing="linear"data-aos-duration="1500">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#2A2E34" fill-opacity="1" d="M0,96L1440,192L1440,0L0,0Z"></path>
     </svg>
 
-    <div class="jumbotron3  " data-aos="fade-down" data-aos-duration="1500"
-   style=" border-radius : 0px;margin-top : -225px">
-        <br>
 
-        <div class="container">
-            <div class="text-center">
-                <h1 class="display-4 text-light" data-aos="fade-down" data-aos-duration="1500"
-                    style="margin-top:15%; margin-bottom:5%; font-weight: 400; font-family: 'Montserrat', sans-serif;">
-                    Layanan yang kami berikan</h1>
-            </div>
-            <div class="row mt-2" style="">
-                <div class="col" data-aos="fade-down" data-aos-duration="1500"
-                data-aos-anchor-placement="center-center">
-                    <center>
-                        {{-- <i class="bi-stars" style="font-size: 2rem;color: rgb(239, 163, 11)"></i> --}}
-                        <span class="material-icons md-48 orange600">home</span>
 
-                    </center>
-                    <br>
-                    <center>
-                        <h5 class="text-light">Meningkatkan kredibilitas</h5>
-                        <p style="color:rgb(210, 200, 200) ;" style="color:rgb(210, 200, 200) ;">Add a position: fixed
-                            to the .jumbotron class, then set top: 0 to get the element fixed to the very top of the
-                            browser viewport. I would set a width:100% as the position:fixed will shrink your element.
-                        </p>
+        <div class="jumbotron3" style=" border-radius : 0px;margin-top : -225px">
+            <br>
 
-                    </center>
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="display-4 text-light"
+                        style="margin-top:15%; margin-bottom:7%; font-weight: 400; font-family: 'Montserrat', sans-serif;"
+                        data-aos="zoom-in" data-aos-duration="800">
+                        Layanan yang kami berikan</h1>
                 </div>
-                <div class="col" data-aos="fade-down" data-aos-duration="1500"
-                data-aos-anchor-placement="center-center">
 
-                    <center>
-                        {{-- <i class="bi-alarm" style="font-size: 2rem;color: rgb(239, 163, 11)"></i> --}}
-                        <span class="material-icons md-48 orange600">face</span>
-                    </center>
-                    <br>
-                    <center>
-                        <h5 class="text-light">Efisien</h5>
-                        <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set
-                            top: 0 to get the element fixed to the very top of the browser viewport. I would set a
-                            width:100% as the position:fixed will shrink your element.</p>
-                    </center>
+                <div class="row mt-2" style="">
+                    <div class="col"  data-aos="fade-down" data-aos-duration="800" data-aos-delay="500">
+                        <center>
+                            {{-- <i class="bi-stars" style="font-size: 2rem;color: rgb(239, 163, 11)"></i> --}}
+                            <span class="material-icons md-48 orange600">home</span>
 
-                </div>
-                <div class="col" data-aos="fade-down" data-aos-duration="1500"
-                data-aos-anchor-placement="center-center">
-                    <center>
-                        <span class="material-icons md-48 orange600">clock</span>
-                    </center>
-                    <br>
-                    <center>
-                        <h5 class="text-light">Pasar yang luas</h5>
-                        <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set
-                            top: 0 to get the element fixed to the very top of the browser viewport. I would set a
-                            width:100% as the position:fixed will shrink your element.</p>
-                    </center>
-                </div>
-                <div class="col" data-aos="fade-down" data-aos-duration="1500"
-                data-aos-anchor-placement="center-center">
-                    <center>
-                        <span class="material-icons md-48 orange600">book</span>
-                    </center>
-                    <br>
-                    <center>
-                        <h5 class="text-light">Informasi yang lengkap</h5>
-                        <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set
-                            top: 0 to get the element fixed to the very top of the browser viewport. I would set a
-                            width:100% as the position:fixed will shrink your element.</p>
-                    </center>
-                </div>
-                <div class="col" data-aos="fade-down" data-aos-duration="1500"
-                data-aos-anchor-placement="center-center">
-                    <center>
-                        <span class="material-icons md-48 orange600">clock</span>
-                    </center>
-                    <br>
-                    <center>
-                        <h5 class="text-light">Buka 24 jam</h5>
-                        <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then set
-                            top: 0 to get the element fixed to the very top of the browser viewport. I would set a
-                            width:100% as the position:fixed will shrink your element.</p>
-                    </center>
+                        </center>
+                        <br>
+                        <center>
+                            <h5 class="text-light">Meningkatkan kredibilitas</h5>
+                            <p style="color:rgb(210, 200, 200) ;" style="color:rgb(210, 200, 200) ;">Add a position:
+                                fixed
+                                to the .jumbotron class, then set top: 0 to get the element fixed to the very top of the
+                                browser viewport. I would set a width:100% as the position:fixed will shrink your
+                                element.
+                            </p>
+
+                        </center>
+                    </div>
+
+                    <div class="col"  data-aos="fade-down" data-aos-duration="800" data-aos-delay="600">
+
+                        <center>
+                            {{-- <i class="bi-alarm" style="font-size: 2rem;color: rgb(239, 163, 11)"></i> --}}
+                            <span class="material-icons md-48 orange600">face</span>
+                        </center>
+                        <br>
+                        <center>
+                            <h5 class="text-light">Efisien</h5>
+                            <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then
+                                set
+                                top: 0 to get the element fixed to the very top of the browser viewport. I would set a
+                                width:100% as the position:fixed will shrink your element.</p>
+                        </center>
+
+                    </div>
+                    <div class="col"  data-aos="fade-down" data-aos-duration="800" data-aos-delay="700">
+                        <center>
+                            <span class="material-icons md-48 orange600">clock</span>
+                        </center>
+                        <br>
+                        <center>
+                            <h5 class="text-light">Pasar yang luas</h5>
+                            <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then
+                                set
+                                top: 0 to get the element fixed to the very top of the browser viewport. I would set a
+                                width:100% as the position:fixed will shrink your element.</p>
+                        </center>
+                    </div>
+                    <div class="col"  data-aos="fade-down" data-aos-duration="800" data-aos-delay="900">
+                        <center>
+                            <span class="material-icons md-48 orange600">book</span>
+                        </center>
+                        <br>
+                        <center>
+                            <h5 class="text-light">Informasi yang lengkap</h5>
+                            <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then
+                                set
+                                top: 0 to get the element fixed to the very top of the browser viewport. I would set a
+                                width:100% as the position:fixed will shrink your element.</p>
+                        </center>
+                    </div>
+                    <div class="col"  data-aos="fade-down" data-aos-duration="800" data-aos-delay="1000">
+                        <center>
+                            <span class="material-icons md-48 orange600">clock</span>
+                        </center>
+                        <br>
+                        <center>
+                            <h5 class="text-light">Buka 24 jam</h5>
+                            <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then
+                                set
+                                top: 0 to get the element fixed to the very top of the browser viewport. I would set a
+                                width:100% as the position:fixed will shrink your element.</p>
+                        </center>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
 
@@ -669,17 +684,17 @@ ul.social-network li {
     </svg>
 
     <div class="jumbotron4" style=" border-radius : 0px; margin-top : -280px;">
-        <section class="testimonial"  >
+        <section class="testimonial">
             <div class="container" style="margin-top : 10%; margin-bottom : 10%;">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                        <div class="sec-heading text-center" data-aos="fade-up"data-aos-duration="1500">
+                        <div class="sec-heading text-center"  data-aos="zoom-in" data-aos-duration="800">
                             <h6 class="text-white" style="font-weight : 600">" Client's Says "</h6>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="clients-carousel owl-carousel" data-aos="fade-down" data-aos-duration="1500">
+                    <div class="clients-carousel owl-carousel"  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
                         <div class="single-box">
                             <div class="img-area"><img alt="" class="img-fluid"
                                     src="{{ asset('img/andre.jpg') }}">
@@ -732,66 +747,78 @@ ul.social-network li {
             </div>
         </section>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b3b3b3" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path></svg>
-    <div class="jumbotron5 text-center" style="margin-top: -240px; height: 100%;">
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-        <div class="col-md-12 text-center page-footer"  data-aos="fade-up" data-aos-duration="1500">
-    		<h4 class="" style="font-weight: 600; font-size : 3rem;">Let's have a little talk</h4>
-    		<h3 class="" style="font-weight: 600; font-size : 3.4rem;margin-top : -20px; color :#acacac;">0921 - 3989 - 9382</h3>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#b3b3b3" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path>
+    </svg>
+
+    {{-- <div class="penjara"  data-aos="fade-up" data-aos-duration="800" data-aos-delay="500"> --}}
+
+        <div class="jumbotron5 text-center" style="margin-top: -240px; margin-bottom: 150px;height: 100%;" >
+            <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <div class="col-md-12 text-center page-footer"   data-aos-duration="1000" data-aos-delay="500">
+            <h4 class="" style="font-weight: 600; font-size : 3rem;">Let's have a little talk</h4>
+            <h3 class=""
+                style="font-weight: 600; font-size : 3.4rem;margin-top : -20px; color :#acacac;">0921 - 3989 - 9382</h3>
             <ul class="social-network social-circle">
-             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-google"></i></a></li>
-             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-twitter"></i></a></li>
-             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-             <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-google"></i></a></li>
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-instagram"></i></a></li>
             </ul>
-		</div>
+        </div>
     </div>
 
-    </div>
-    </div>
+</div>
+</div>
+<div></div>
+{{-- </div> --}}
     <div class="container"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
-	</script>
-    <script type="text/javascript">
-       $('.clients-carousel').owlCarousel({
-	           loop: true,
-	           nav: false,
-	           autoplay: true,
-	           autoplayTimeout: 5000,
-	           animateOut: 'fadeOut',
-	           animateIn: 'fadeIn',
-	           smartSpeed: 450,
-	           margin: 30,
-	           responsive: {
-	               0: {
-	                   items: 1
-	               },
-	               768: {
-	                   items: 2
-	               },
-	               991: {
-	                   items: 2
-	               },
-	               1200: {
-	                   items: 2
-	               },
-	               1920: {
-	                   items: 2
-	               }
-	           }
-	       });
     </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+    </script>
+    <script type="text/javascript">
+        $('.clients-carousel').owlCarousel({
+            loop: true,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            smartSpeed: 450,
+            margin: 30,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                991: {
+                    items: 2
+                },
+                1200: {
+                    items: 2
+                },
+                1920: {
+                    items: 2
+                }
+            }
+        });
+    </script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script type="text/javascript">
+        AOS.init({
+            once: true,
+            duration: 1200,
+        });
+    </script>
+
     <script type="text/javascript">
         $(document).ready(function() {
             $(window).scroll(function() {
@@ -812,10 +839,6 @@ ul.social-network li {
                 }
             });
         });
-
-
-
-
     </script>
 
 

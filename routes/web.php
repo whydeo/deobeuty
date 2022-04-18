@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Htpp\Controllers\GaleryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/tes', function () {
+    return view('test');
+});
+// Route::get('index', [GaleryController::class, 'index'])->name('index');
+
+Route::get('/index', 'App\Http\Controllers\GaleryController@index')->name('index');
+
