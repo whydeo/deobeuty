@@ -753,7 +753,7 @@
 
     {{-- <div class="penjara"  data-aos="fade-up" data-aos-duration="800" data-aos-delay="500"> --}}
 
-        <div class="jumbotron5 text-center" style="margin-top: -240px; margin-bottom: 150px;height: 100%;" >
+        <div class="jumbotron5 text-center" style="margin-top: -240px; height: 100%;" >
             <br><br>
         <br><br>
         <br><br>
@@ -763,10 +763,10 @@
             <h3 class=""
                 style="font-weight: 600; font-size : 3.4rem;margin-top : -20px; color :#acacac;">0921 - 3989 - 9382</h3>
             <ul class="social-network social-circle">
-                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-google"></i></a></li>
-                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#" class="icoFacebook mb-3" title="Facebook"><i class="fa fa-google mt-2"></i></a></li>
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-twitter mt-2"></i></a></li>
+                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook mt-2"></i></a></li>
+                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-instagram mt-2"></i></a></li>
             </ul>
         </div>
     </div>
