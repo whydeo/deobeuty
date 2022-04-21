@@ -46,13 +46,13 @@
         /* background-image: url('img/deo.jpg'); */
         background-size: cover;
         /* filter: brightness(50%); */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('img/deo.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255 86 119)), url('img/deo.jpg');
         /* background-repeat: no-repeat; */
     }
 
     .jumbotron2 {
         height: 80vh;
-        background-color: #2A2E34;
+        background-color: #FF5677;
         z-index: -1;
     }
 
@@ -140,14 +140,14 @@
         /* background-image : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('img/deo.jpg'); */
         /* background-repeat: no-repeat; */
         /* margin-top: -3%; */
-        background-color: rgba(120, 120, 120, 120);
+        background-color: #FF957B;
         /* margin-top: 0; */
         z-index: -1;
     }
 
     .jumbotron4 {
         height: 100%;
-        background-color: rgba(179, 179, 179, 179);
+        background-color: #FEA8A7;
         z-index: 4;
     }
 
@@ -201,7 +201,7 @@
     }
 
     .material-icons.orange600 {
-        color: #FB8C00;
+        color: #5C4C48;
     }
 
     .jumbotron5 {
@@ -382,11 +382,11 @@
     /* footer social icons */
 
     .social-network a.icoFacebook:hover {
-        background-color: #3B5998;
+        background-color: #fea8a7;
     }
 
     .social-network a.icoLinkedin:hover {
-        background-color: #007bb7;
+        background-color: #fea8a7;
     }
 
     .social-network a.icoFacebook:hover i,
@@ -540,7 +540,7 @@
 
                     </div>
                     <div class="lingkeran-gendut" data-aos="zoom-in">
-                        <img src="{{ asset('img/gitar.png') }}" alt="" style="margin-top: -50px">
+                        <img src="{{ asset('img/cam.png') }}" alt="" style="margin-top: -40px; margin-left : -70px; height : 250px; width : 300px">
                     </div>
                 </div>
 
@@ -582,7 +582,7 @@
     </div>
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#2A2E34" fill-opacity="1" d="M0,96L1440,192L1440,0L0,0Z"></path>
+        <path fill="#FF5677" fill-opacity="1" d="M0,96L1440,192L1440,0L0,0Z"></path>
     </svg>
 
 
@@ -608,7 +608,7 @@
                         <br>
                         <center>
                             <h5 class="text-light">Meningkatkan kredibilitas</h5>
-                            <p style="color:rgb(210, 200, 200) ;" style="color:rgb(210, 200, 200) ;">Add a position:
+                            <p style="color:white ;" style="color:white ;">Add a position:
                                 fixed
                                 to the .jumbotron class, then set top: 0 to get the element fixed to the very top of the
                                 browser viewport. I would set a width:100% as the position:fixed will shrink your
@@ -621,13 +621,13 @@
                     <div class="col"  data-aos="fade-down" data-aos-duration="800" data-aos-delay="600">
 
                         <center>
-                            {{-- <i class="bi-alarm" style="font-size: 2rem;color: rgb(239, 163, 11)"></i> --}}
+                            {{-- <i class="bi-alarm" style="font-size: 2rem;color: whitei> --}}
                             <span class="material-icons md-48 orange600">face</span>
                         </center>
                         <br>
                         <center>
                             <h5 class="text-light">Efisien</h5>
-                            <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then
+                            <p style="color:white ;">Add a position: fixed to the .jumbotron class, then
                                 set
                                 top: 0 to get the element fixed to the very top of the browser viewport. I would set a
                                 width:100% as the position:fixed will shrink your element.</p>
@@ -641,7 +641,7 @@
                         <br>
                         <center>
                             <h5 class="text-light">Pasar yang luas</h5>
-                            <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then
+                            <p style="color:white ;">Add a position: fixed to the .jumbotron class, then
                                 set
                                 top: 0 to get the element fixed to the very top of the browser viewport. I would set a
                                 width:100% as the position:fixed will shrink your element.</p>
@@ -654,7 +654,7 @@
                         <br>
                         <center>
                             <h5 class="text-light">Informasi yang lengkap</h5>
-                            <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then
+                            <p style="color:white ;">Add a position: fixed to the .jumbotron class, then
                                 set
                                 top: 0 to get the element fixed to the very top of the browser viewport. I would set a
                                 width:100% as the position:fixed will shrink your element.</p>
@@ -667,7 +667,7 @@
                         <br>
                         <center>
                             <h5 class="text-light">Buka 24 jam</h5>
-                            <p style="color:rgb(210, 200, 200) ;">Add a position: fixed to the .jumbotron class, then
+                            <p style="color:white ;">Add a position: fixed to the .jumbotron class, then
                                 set
                                 top: 0 to get the element fixed to the very top of the browser viewport. I would set a
                                 width:100% as the position:fixed will shrink your element.</p>
@@ -680,7 +680,7 @@
 
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#787878" fill-opacity="1" d="M0,160L1440,64L1440,0L0,0Z"></path>
+        <path fill="#FF957B" fill-opacity="1" d="M0,160L1440,64L1440,0L0,0Z"></path>
     </svg>
 
     <div class="jumbotron4" style=" border-radius : 0px; margin-top : -280px;">
@@ -748,7 +748,7 @@
         </section>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#b3b3b3" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path>
+        <path fill="#FEA8A7" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path>
     </svg>
 
     {{-- <div class="penjara"  data-aos="fade-up" data-aos-duration="800" data-aos-delay="500"> --}}
